@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css" />
+</head>
+
+<body>
+    <!-- Full page div -->
+    <div class="root">
+
+        <!-- Header section -->
+        <div class="header">
+            <div class="header-first">
+                <h1 class="header-first-h1"><i class="fa fa-camera logo"></i>canvas</h1>
+            </div>
+            <div class="header-second">
+                <div class="header-second-first">
+                    <div><i class="fa fa-phone"></i></div>
+                    <div class="header-second-second">
+                        <p id="header-p">Call us</p>
+                        <p>(1) 22 5421 581</p>
+                    </div>
+                </div>
+                <div class="header-second-first">
+                    <div><i class="fa fa-envelope"></i></div>
+                    <div class="header-second-second">
+                        <p id="header-p">Email Us</p>
+                        <p>info@canvas.com</p>
+                    </div>
+                </div>
+                <div class="header-second-first">
+                    <div><i class="fa fa-home"></i></div>
+                    <div class="header-second-second">
+                        <p id="header-p">We are Open</p>
+                        <p>Mon-Sat, 10AM to 6PM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- center nav bar section -->
+        <div class="center">
+            <div class="nav">
+                <input type="checkbox" id="chk">
+                <label for="chk" class="show-btn"><i class="fa fa-bars"></i></label>
+                <ul class="menu">
+                    <li class="list-items"><a href="#home">HOME</a> </li>
+                    <li class="list-items"><a href="#about">WHAT WE DO</a></li>
+                    <li class="list-items"><a href="#team">ABOUT US</a>
+                    <li class="list-items"><a href="#technology">PROJECTS</a></li>
+                    <li class="list-items"><a href="#contact">INVESTORS</a></li>
+                    <li class="list-items"><a href="#contact">NEWS</a></li>
+                    <li class="list-items"><a href="#contact">CAREERS</a></li>
+                    <li class="list-items"><a href="#contact">CONTACT</a></li>
+                    <li class="list-items"><a href="#search"><i class="fa fa-search"></i></a></li>
+                    <label for="chk" class="hide-btn"><i class="fa fa-times"></i></label>
+                </ul>
+            </div>
+        </div>
+
+        <!-- carsouel Section -->
+        <div class="carsouel-size">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../third.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <div class="inside-carousel">
+                                <h1 class="display-2">WELCOME TO CANVAS</h1>
+                                <p class="display-3">Create just what you need for your project Website. Choose a wide
+                                    range of
+                                    elements from here.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../second.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../third.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <div class="inside-carousel">
+                                <h1 class="display-2">WELCOME TO CANVAS</h1>
+                                <p class="display-3">Create just what you need for your project Website. Choose a wide
+                                    range of
+                                    elements from here.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../second.jpg" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Settings icon section -->
+        <div class="settings">
+            <i class="fa fa-cogs"></i>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
